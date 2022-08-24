@@ -24,7 +24,7 @@ public class Excluir extends HttpServlet {
 		String cpf = request.getParameter("cpf");
 		
 		lista = new ArrayList<>();
-		lista.remove(cpf);
+		lista.remove(f);
 		
 		
 		f.getCpf();
