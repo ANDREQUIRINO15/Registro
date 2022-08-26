@@ -25,4 +25,14 @@ public class Funcionario {
 		this.cargo = cargo;
 	}
 	
+	@Override
+	public boolean equals(Object obj) {
+		
+		Funcionario f2 = (Funcionario) obj;
+		
+		return this.getCpf().equals(f2.getCpf());
+	}
+	
+
+	
 }
